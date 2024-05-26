@@ -1,0 +1,86 @@
+    .App {
+      background-color: blue; 
+      min-height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .price-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+      font-size: 6vh;
+    }
+
+    .price-cards-container {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      max-width: 1200px; 
+    }
+
+    .price-card {
+      background-color: white;
+      border-radius: 8px;
+      padding: 50px;
+      margin: 20px;
+      width: 30%; 
+    }
+
+    .price-card.disabled {
+      opacity: 0.5; 
+    }
+
+    .price-card h2 {
+      text-align: center;
+      font-size: small;
+      color: gray; /
+    }
+
+    /* .price-card .price {
+      font-size: 24px;
+      margin-bottom: 20px;
+    } */
+
+    .price-card .features {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .price-card .features li {
+      margin-bottom: 10px;
+    }
+
+    .price-card .features li.disabled {
+      color: #ccc; 
+    }
+
+    .price-card .icon {
+      margin-right: 5px;
+    }
+      
+    .btn {
+      background-color: blue;
+      color: white;
+      padding: 0px 90px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      text-align: center; 
+      display: inline-block; 
+      line-height: 50px; 
+
+    }
+    
+    .btn:hover {
+      background-color: darkblue;
+    }
+
+    .grayed-line {
+      border: none;
+      border-top: 1px solid #ccc; 
+      margin: 10px 0;
+    }
+    
